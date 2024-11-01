@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>Explorer</title>
+    <link rel="stylesheet" href="css/討論區.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header, nav, article, footer { padding: 10px; }
+        header { background: #333; color: white; display: flex; justify-content: space-between; align-items: center; }
+        nav { background: #444; color: white; text-align: center; }
+        nav a { color: white; padding: 10px; text-decoration: none; }
+        section { padding: 20px; }
+        article { margin-bottom: 20px; border-bottom: 1px solid ; padding-bottom: 10px; }
+        footer { background: #333; color: white; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="fixed-header">
+        <header>
+            <h1 style="margin: 0;"><a href="index.html" class="logo">Explorer</a></h1>
+            <div class="search-bar">
+                <form action="/search" method="get">
+                    <input type="text" placeholder="搜尋遊戲討論..." name="search">
+                    <input type="submit" value="搜尋">
+                </form>
+            </div>
+            <div class="auth-links">
+                <a href="登入.html" class="btn-login">登入</a>
+                <a href="註冊.html" class="btn-register">註冊</a>
+            </div>
+        </header>
+        <nav class="sticky-nav">
+            <a href="討論區.html">動態牆</a> |
+            <a href="熱門遊戲.html">熱門遊戲</a> |
+            <a href="遊戲資訊.html">遊戲資訊</a> |
+            <a href="Steam消息.html">Steam免費遊戲消息</a>
+        </nav>
+    </div>
+                   <!-- HTML基本樣式 -->
+
+                   <section>
+                    <div id="user-activities">
+                        <article class="post">
+                            <div class="post-header">
+                                <img src="images/images.jfif" alt="User Avatar">
+                                <div class="author-info">
+                                    <div class="name">Miss.A</div>
+                                    <div class="time">2024年11月2日 14:35</div>
+                                </div>
+                            </div>
+                            <div class="post-title">11/1封測開始了，看起來真好玩！</div>
+                            <div class="post-content"><img src="images/MH2.jpg" alt="Post Image"></div>
+                            <div class="post-actions">
+                                <button>按讚</button>
+                                <button>留言</button>
+                                <button>分享</button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div id="user-activities">
+                        <article class="post">
+                            <div class="post-header">
+                                <img src="images/grfpvm-cover.jpeg" alt="User Avatar">
+                                <div class="author-info">
+                                    <div class="name">Miss.B</div>
+                                    <div class="time">2024年11月2日 14:35</div>
+                                </div>
+                            </div>
+                            <div class="post-title">聽說這是中國很紅的遊戲，想玩玩看。</div>
+                            <div class="post-content"><img src="images/30bd7ad1498ea1eb794eee9867317682.jpeg" alt="Post Image"></div>
+                            <div class="post-actions">
+                                <button>按讚</button>
+                                <button>留言</button>
+                                <button>分享</button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div id="user-activities">
+                        <article class="post">
+                            <div class="post-header">
+                                <img src="images/ok_woman.png" alt="User Avatar">
+                                <div class="author-info">
+                                    <div class="name">Miss.C</div>
+                                    <div class="time">2024年11月2日 14:35</div>
+                                </div>
+                            </div>
+                            <div class="post-title">好懷念的續作遊戲，沒想到有出新的。</div>
+                            <div class="post-content"><img src="images/open-graph-dragon-ball-sparking-zero.jpg" alt="Post Image"></div>
+                            <div class="post-actions">
+                                <button>按讚</button>
+                                <button>留言</button>
+                                <button>分享</button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div id="user-activities">
+                        <article class="post">
+                            <div class="post-header">
+                                <img src="images/stand_sagyouin_glove_man.png" alt="User Avatar">
+                                <div class="author-info">
+                                    <div class="name">Mr.A</div>
+                                    <div class="time">2024年11月2日 14:35</div>
+                                </div>
+                            </div>
+                            <div class="post-title">Dark and Darker目前人氣較高的地城遊戲！</div>
+                            <div class="post-content"><img src="images/dark-and-darker-1yv3x.jpg" alt="Post Image"></div>
+                            <div class="post-actions">
+                                <button>按讚</button>
+                                <button>留言</button>
+                                <button>分享</button>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <footer>
+                    <p>&copy; 2024 Explorer. All rights reserved.</p>
+                </footer>
+            
+
+                <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+                <script src="js/討論區.js"></script>
+            </body>
+            </html>

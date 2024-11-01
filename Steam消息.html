@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>遊戲討論平台</title>
+    <link rel="stylesheet" href="css/Steam消息.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="swiper-custom.css"> <!-- 引入自定義的Swiper CSS -->
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header, nav, article, footer { padding: 10px; }
+        header { background: #333; color: white; display: flex; justify-content: space-between; align-items: center; }
+        nav { background: #444; color: white; text-align: center; }
+        nav a { color: white; padding: 10px; text-decoration: none; }
+        section { padding: 20px; }
+        article { margin-bottom: 20px; border-bottom: 1px solid ; padding-bottom: 10px; }
+        footer { background: #333; color: white; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="fixed-header">
+        <header>
+            <h1 style="margin: 0;"><a href="index.html" class="logo">Explorer</a></h1>
+            <div class="search-bar">
+                <form action="/search" method="get">
+                    <input type="text" placeholder="搜尋遊戲討論..." name="search">
+                    <input type="submit" value="搜尋">
+                </form>
+            </div>
+            <div class="auth-links">
+                <a href="登入.html" class="btn-login">登入</a>
+                <a href="註冊.html" class="btn-register">註冊</a>
+            </div>
+        </header>
+        <nav class="sticky-nav">
+            <a href="討論區.html">討論區</a> |
+            <a href="熱門遊戲.html">熱門遊戲</a> |
+            <a href="遊戲資訊.html">遊戲資訊</a> |
+            <a href="Steam消息.html">Steam免費遊戲消息</a>
+        </nav>
+    </div>
+                   <!-- HTML基本樣式 -->    
+
+        <div class="game-card">
+        <img src="" alt="Game 1">
+        <div class="game-info">
+        <h2>Steam限免 《Machinika: Museum》</h2>
+        <p>領取永久保存，外星遺物3D科幻解謎遊戲</p>
+        <p class="meta">2024-05-14 | By 歪力 #限時免費 #Steam #異星裝置博物館 #解謎</p>
+     </div>
+        </div>
+        <div class="game-card">
+        <img src="" alt="Game 2">
+    <div class="game-info">
+        <h2>Steam多人恐怖遊戲《Content Warning》限時免費，</h2>
+        <p>上市即限免！「搞笑版致命公司」玩法獲壓倒性好評</p>
+         <p class="meta">2024-05-10 | By 歪力 #限時免費 #Steam #恐怖遊戲</p>
+</div>
+</div>
+</body>
+</html>
